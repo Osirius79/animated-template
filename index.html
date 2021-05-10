@@ -12,7 +12,12 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <!-- Tailwind Library -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
-        <title>Animated Template</title>
+        <title>Pavel Template</title>
+         <!-- AOS.js -->
+         <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script defer src="script.js"></script>
+         <!-- Navigation Script -->
+         <script defer src="navbar.js"></script>
     </head>
     <body class="text-gray-800 antialiased">
         <!-- Navigation -->
@@ -20,9 +25,9 @@
             <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
                 <!-- Nav Left Side -->
                 <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                    <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
+                    <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://osirius79.github.io/Quote-Generator/">
                         <!-- Nav Title -->
-                        Jacinto Design
+                        Pavel's Quote Generator
                     </a>
                     <!-- Hamburger Menu (Mobile) -->
                     <button
@@ -50,7 +55,7 @@
                     <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
                         <!-- Social Media Button -->
                         <li class="flex items-center">
-                            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pavel">
                                 <!-- Icon -->
                                 <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"></i>
                                 <span class="lg:hidden inline-block ml-2">Share</span>
@@ -58,7 +63,7 @@
                         </li>
                         <!-- Social Media Button -->
                         <li class="flex items-center">
-                            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pavel">
                                 <!-- Icon -->
                                 <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg"></i>
                                 <span class="lg:hidden inline-block ml-2">Tweet</span>
@@ -66,7 +71,7 @@
                         </li>
                         <!-- Social Media Button -->
                         <li class="flex items-center">
-                            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pavel">
                                 <!-- Icon -->
                                 <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg"></i>
                                 <span class="lg:hidden inline-block ml-2">Star</span>
@@ -655,22 +660,4 @@
         </footer>
         <!-- End of Footer Section -->
     </body>
-    <!-- AOS.js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        // AOS.init();
-        AOS.init({
-            delay: 200, // values from 0 to 3000, with step 50ms
-            duration: 1500, // values from 0 to 3000, with step 50ms
-            once: false, // whether animation should happen only once - while scrolling down
-            mirror: false, // whether elements should animate out while scrolling past them
-        });
-    </script>
-    <!-- Navigation Script -->
-    <script>
-        function toggleNavbar(collapseID) {
-            document.getElementById(collapseID).classList.toggle("hidden");
-            document.getElementById(collapseID).classList.toggle("block");
-        }
-    </script>
 </html>
